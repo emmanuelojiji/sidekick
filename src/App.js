@@ -33,7 +33,7 @@ function App() {
             </div>
             <aside className="main-right">
               <h2>Choose your search mode</h2>
-              <Card
+             {/* <Card
                 cardNumber="card-1"
                 title="Quick search"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis vel nulla et vestibulum."
@@ -46,10 +46,10 @@ function App() {
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis vel nulla et vestibulum."
                 isActive={searchMode === "advanced" ? "active" : null}
                 onClick={() => setSearchMode("advanced")}
-              />
+                />*/}
 
               <button
-                onClick={() => searchMode === "advanced" && setView("form")}
+                onClick={() => setView("form")}
               >
                 Begin
               </button>
