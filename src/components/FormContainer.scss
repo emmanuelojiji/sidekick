@@ -1,0 +1,41 @@
+.form-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  padding-top: 10px;
+  background: #f5fafd;
+
+  button {
+    margin-top: 25px;
+  }
+}
+
+.form-container-blur {
+  position: fixed;
+  top: -100px;
+  z-index: 1;
+  height: 300px;
+  width: 100%;
+  background: white;
+  filter: blur(50px);
+}
+
+.progress-bar {
+  width: 0%;
+  background: #683ff9;
+  height: 10px;
+  transition: 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.form-carousel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  transform: translateY(100%);
+}
